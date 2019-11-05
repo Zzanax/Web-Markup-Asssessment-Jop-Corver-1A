@@ -1,15 +1,48 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+ p, h1, h2, h3, h4, h5, a {
+	font-family: "Roboto", "sans-serif", "Arial", "Verdana";
+}
+*{
 	margin: 0%;
-	padding: 0%;
+	margin: 0%;
 }
 /*NAV*/
+#navbalk {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+#navbalk ul {
+	list-style-type: none;
+	background-color: #2699FB	
+}
+#navbalk ul li {
+	display: inline-block;
+	padding: 1em;
+	vertical-align: middle;	
+	box-sizing: border-box;
+}
+#navbalk ul li a {
+	color: #000;
+	text-decoration: none;
+	float: left;
+}
 
+
+/*NAV EIND*/
 /*HERO*/
 
+/*HERO EIND*/
 /*MAIN*/
 
+/*MAIN EIND*/
 /*SECONDARY*/
 
+/*SECONDARY EIND*/
 /*SPORT*/
 
+/*SPORT EIND*/
 /*REFERRAL*/
+
+/*REFERRAL EIND*/
