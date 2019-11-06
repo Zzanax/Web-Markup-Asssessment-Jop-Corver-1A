@@ -38,6 +38,17 @@
 /*NAV EIND*/
 
 
+/*COOKIE*/
+#cookies {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+}
+#cookiesakkoord:pressed{
+	display:none;
+}
+/*COOKIE*/
+
 /*HERO*/
 #hero_foto {
 	margin: 0%;
@@ -275,7 +286,19 @@
 /*REFERRAL EIND*/
 
 
+/*CONTACT*/
+#contactcontent {
+	max-width: 50em;
+	margin: auto;
+}
+/*CONTACT EIND*/
 
+
+/*FOOTER*/
+#footer {
+	background-color: #2699FB;
+}
+/*FOOTER EIND*/
 
 
 

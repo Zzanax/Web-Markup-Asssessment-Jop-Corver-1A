@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 	<body>
+		
 		<nav id="navbalk">
 			<ul>
 				<li><h2>Haarlem</h2></li>
@@ -20,6 +21,9 @@
 				<li><a href="#contactcontent">Contact</a></li>
 			</ul>
 		</nav>
+		<section id="cookies">
+			<h3>Deze website gebruikt cookies.</h3><button id="cookiesakkoord">Akkoord</button>
+		</section>
 		<section class="hero-gedeelte">
 			<img id="hero_foto" src="img/haarlem/bavozuid.jpg" title="De Bavo Kerk in Haarlem Zuid-West">
 			<header id="hero_title">
@@ -206,10 +210,33 @@
 				</footer>
 			</section>
 			<section id="contactcontent">
-			
+				<form class="form" action="http://witan.nl/inholland/testform.php" method="post">
+					<fieldset>
+						<legend>Aan wie wilt u een bericht sturen?</legend>
+						<select>
+							<option value="Algemeen">Algemeen</option>
+							<option value="referral">Hwa-Rang Dragon</option>
+						</select>
+					</fieldset>
+					<fieldset>
+						<legend>Persoonlijke informatie</legend>
+						<label for="naam">naam</label>
+						<input type="text" id="inputnaam" name="name"/>
+						<label for="inputemail">E-mail</label>
+						<input type="text" id="inputemail" name="email"/>
+					</fieldset>
+					<fieldset>
+						<legend>Jouw bericht</legend>
+						<textarea name="message" id="inputbericht" rows="10" cols="50"></textarea>
+						<input type="submit">
+					</fieldset>
+				</form>
 			</section>
 		</main>
 		<footer>
+			<section id="footer">
+				<h3>&copy; 2019 Jop Corver 1A.</h3>
+			</section>
 		</footer>
 	</body>
 </html> 
